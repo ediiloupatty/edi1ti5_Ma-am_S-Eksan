@@ -1,0 +1,24 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main(){
+    
+  float celc, fahr, kelv,ream;
+  cout<<"Input Suhu Celcius : ";
+  cin>>celc;
+  cout<<endl;
+  
+  fahr = (9.5/5.0) *celc) +32;
+  kelv = celc + 273.25;
+  ream = celc * (4.5/5.0);
+  
+  cout<<celc<<"Derajat Celcius = "<<fahr<<"derajat fahrenheit"<<endl;
+  cout<<endl;
+    cout<<celc<<"Derajat Celcius = "<<kelv<<"Derajat Kelvin"<<endl;
+  cout<<endl;
+  cout<<celc<<"Derajat Celcius = "<<ream<<"Derajat Reamur"<<endl;
+  cout<<endl;
+  return 0;
+
+}
