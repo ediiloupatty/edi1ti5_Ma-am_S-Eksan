@@ -12,5 +12,5 @@ int main(){
     cout<<"Kecepatan (Km/Jam) : " <<v<<endl;
     cout<<"============="<<endl;
     cout<<endl;
-    return0;
+    return 0;
     }
