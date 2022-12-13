@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{ float E,m,c=2.99*100000000;
+cout<<"Program Menghitung E=mc2"<<endl;
+cout<<"Masukan Nilai m : "<<endl;
+cin>>m;
+
+E=m*c;
+cout<<"Hasil Adalah : <<E<<endl;
+return 0;
+    
+}
