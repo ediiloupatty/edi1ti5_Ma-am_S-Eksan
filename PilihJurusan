@@ -40,7 +40,7 @@ int main () {
      cout<<"Anda Memilih Pariwisata"<<endl;
      break;
      default :
-     cout<<"Maaf Jurusan Tidak Tersedia"endl;
+     cout<<"Maaf Jurusan Tidak Tersedia"<<endl;
      }
      
      cout<<"Silahkan Pilih Prodi : "<<endl;
