@@ -1,0 +1,24 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main(){
+    int hari,jam,menit,detik;
+    cout<<"Konversi Detik ke Hari, Jam, Menit, Dan Detik"<<endl;
+    cout<<"Masukan Jumlah Detik Yang Mau Dihitung : "<<endl;
+    cin>>detik;
+    
+    hari = detik/(60*1440);
+    detik=detik - ((60*60)*hari);
+    jam = detik / (60*60);
+    detik= detik - ((60*60)*jam);
+    menit=detik/60;
+    detik = detik - (60*menit);
+    
+    cout<<"Maka Waktunya Adalah : "<<endl;
+    cout<<"Hari : "<<hari<<endl;
+    cout<<"Jam : "<<jam<<endl;
+    cout<<"Menit : "<<menit<<endl;
+    return 0;
+
+}
