@@ -1,0 +1,66 @@
+#include <iostream>
+using namespace std;
+
+int main () {
+    int jurusan;
+    char prodi;
+    cout<<"Jurusan Yang Tersedia DI Polimdo"<<endl;
+    cout<<"1. Teknik Sipil"<<endl;
+    cout<<"2. Teknik Elektro"<<endl;
+    cout<<"        A. D3 Teknik Mesin"<<endl;
+    cout<<"        B. D4 Teknik Listrik"<<endl;
+    cout<<"        C. D3 Teknik Komputer"<<endl;
+    cout<<"        D. D4 Teknik Informatika"<<endl;
+    cout<<"3. Teknik Mesin"<<endl;
+    cout<<"4. Akuntansi"<<endl;
+    cout<<"5. Administrasi Bisnis"<<endl;
+    cout<<"6. Pariwisata"<<endl;
+    
+    cout<<"Silahkan Pilih Jurusan dan Prodi"<<endl;
+    cout<<"Jurusan 1-5 dan Prodi A - D"<<endl;
+    cin>>jurusan;
+    
+    switch(jurusan){
+     case 1 :
+      cout<<"Anda Memilih Tenik Sipil";
+      break;
+    case 2 :
+     cout<<"Anda Memilih Elektro"<<endl;
+     break;
+     case 3 :
+     cout<<"Anda Memilih Teknik Mesin"<<endl;
+     break;
+     case 4 :
+     cout<<"Anda Memilih Akuntansi"<<endl;
+     break;
+     case 5 :
+     cout<<"Anda Memilih Administrasi Bisnis"<<endl;
+     break;
+     case 6 :
+     cout<<"Anda Memilih Pariwisata"<<endl;
+     break;
+     default :
+     cout<<"Maaf Jurusan Tidak Tersedia"endl;
+     }
+     
+     cout<<"Silahkan Pilih Prodi : "<<endl;
+     cin>>prodi;
+     
+     switch (prodi){
+         case 'A' :
+         cout<<"Anda Memilih D3 Teknik Mesin"<<endl;
+         break;
+         case 'B' :
+         cout<<"Anda Memilih D4 Teknik Listrik"<<endl;
+         break;
+         case 'C' :
+         cout<<"Anda Memilih D3 Teknik Komputer"<<endl;
+         break;
+         case 'D' :
+         cout<<"Anda Memilih D4 Teknik Informatika"<<endl;
+         break;
+         default :
+         cout<<"Pilihan Anda Diluar Program Studi"<<endl;
+     }
+     
+}
