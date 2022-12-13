@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    
+    float v,s,t;
+    cout<<"Program C Menghitung Kecepatan"<<endl;
+    cout<<"---------------------------------------------------"<<endl;
+    cout<<"Masukan Jarak Tempuh (KM) : " ;cin>>s;
+    cout<<"Masukan Jarak Tempuh (JAM) : " ;cin>>t;
+    v=s/t;
+    cout<<"Kecepatan (Km/Jam) : " <<v<<endl;
+    cout<<"============="<<endl;
+    cout<<endl;
+    return0;
+    }
